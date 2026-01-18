@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.date-input {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.date-input span {
+  width: 16px;
+  height: 15px;
+  text-align: center;
+  cursor: pointer;
+}
