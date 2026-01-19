@@ -1,6 +1,8 @@
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .date-input {
@@ -14,4 +16,35 @@ main {
   height: 15px;
   text-align: center;
   cursor: pointer;
+}
+
+.date-map {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.title span {
+  margin: 0 5px;
+}
+
+.dayOfWeek {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.daysFirstRow {
+  position: absolute;
+  top: 95px;
+  left: 850px;
+}
+
+.daysFirstRow > span {
+  display: inline-block;
+  margin-right: 24px;
 }
