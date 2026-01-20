@@ -21,7 +21,7 @@ main {
 .date-map {
   border: 1px solid black;
   width: 250px;
-  height: 250px;
+  height: 175px;
   margin-top: 10px;
   padding: 5px;
   text-align: center;
@@ -44,7 +44,43 @@ main {
   left: 850px;
 }
 
-.daysFirstRow > span {
+.daysFirstRow > span,
+.daysSecondRow > span {
   display: inline-block;
   margin-right: 24px;
+}
+
+.daysThirdRow > span,
+.daysFourthRow > span,
+.daysFifthRow > span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.daysSecondRow {
+  position: absolute;
+  top: 120px;
+  left: 850px;
+}
+
+.daysSecondRow > span:last-child {
+  margin-left: -5px;
+}
+
+.daysThirdRow {
+  position: absolute;
+  top: 145px;
+  left: 850px;
+}
+
+.daysFourthRow {
+  position: absolute;
+  top: 170px;
+  left: 850px;
+}
+
+.daysFifthRow {
+  position: absolute;
+  top: 195px;
+  left: 850px;
 }
